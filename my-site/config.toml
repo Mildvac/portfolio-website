@@ -1,0 +1,15 @@
+[project]
+  name = "my-site"
+  version = "0.1.0"
+  description = "Add your description here"
+
+[tree]
+  markdown = "src/md"
+  templates = "src/templates"
+  plugins = "src/plugins"
+  draft_dest = "build/draft"
+  release_dest = "build/release"
+
+[http]
+  host = "localhost"
+  port = "8000"
